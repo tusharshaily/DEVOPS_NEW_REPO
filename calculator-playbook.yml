@@ -3,4 +3,4 @@
   hosts: remoteserver
   tasks:
     - name: Pull docker image
-      shell: docker pull natishq/calculatordevops:1.0.0
+      shell: docker pull tusharshaily/calculator:1.0.0
