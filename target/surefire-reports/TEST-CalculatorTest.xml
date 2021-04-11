@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="CalculatorTest" time="0.01" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="CalculatorTest" time="0.009" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9-Ubuntu-0ubuntu1.18.04"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/tushar/Desktop/SPE_CAL/Calculator_DevOps"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/tushar/Desktop/SPE_CAL"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/tushar/Desktop/SPE_CAL/Calculator_DevOps"/>
+    <property name="user.dir" value="/home/tushar/Desktop/SPE_CAL"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.10+9-Ubuntu-0ubuntu1.18.04"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -65,8 +65,8 @@
   <testcase classname="CalculatorTest" name="squarerootTruePositive" time="0"/>
   <testcase classname="CalculatorTest" name="natlogFalsePositive" time="0"/>
   <testcase classname="CalculatorTest" name="squarerootFalsePositive" time="0"/>
-  <testcase classname="CalculatorTest" name="factorialTruePositive" time="0.005"/>
-  <testcase classname="CalculatorTest" name="natlogTruePositive" time="0"/>
+  <testcase classname="CalculatorTest" name="factorialTruePositive" time="0"/>
+  <testcase classname="CalculatorTest" name="natlogTruePositive" time="0.004"/>
   <testcase classname="CalculatorTest" name="powerFalsePositive" time="0"/>
   <testcase classname="CalculatorTest" name="powerTruePositive" time="0"/>
 </testsuite>
