@@ -1,0 +1,6 @@
+---
+- name: Deploy docker image
+  hosts: remoteserver
+  tasks:
+    - name: Pull docker image
+      shell: docker pull natishq/calculatordevops:1.0.0
